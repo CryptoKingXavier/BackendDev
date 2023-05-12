@@ -1,0 +1,77 @@
+body {
+    font-family: -apple-system, system-ui, sans-serif;
+    background-color: beige;
+}
+
+#heading {
+    box-sizing: border-box;
+    width: fit-content;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 50px;
+    box-shadow: 3px 4px 10px 3px lightgray;
+}
+
+#heading > img {
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 50px;
+    width: 100%;
+}
+
+#heading:hover, #heading > img:hover {
+    transform: scale(1.02);
+}
+
+h3 {
+    margin: auto;
+    text-align: center;
+    color: crimson;
+    font-style: italic;
+    margin-top: 1rem;
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+h3 > small {
+    font-style: italic;
+    font-weight: bolder;
+    color: teal;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+#content > div {
+    text-align: center;
+    font-style: normal;
+    font-size: 20px;
+    color: teal;
+    box-sizing: content-box;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 4px 10px 3px lightgray;
+    margin: auto;
+    width: 75vw;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+#content > div:hover {
+    transform: scale(1.1);
+}
+
+.topic {
+    font-style: italic;
+    color: crimson;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+br {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
